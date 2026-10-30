@@ -1,0 +1,4 @@
+CREATE DATABASE GreenBasketDB;
+GO
+USE GreenBasketDB;
+GO
