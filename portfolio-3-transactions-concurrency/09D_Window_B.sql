@@ -1,0 +1,9 @@
+USE GreenBasketDB;
+GO
+
+SET TRANSACTION ISOLATION LEVEL READ COMMITTED;
+UPDATE dbo.Products
+SET Price = 8500.00
+WHERE ProductID = 3;
+
+SELECT Price FROM dbo.Products WHERE ProductID = 3;
